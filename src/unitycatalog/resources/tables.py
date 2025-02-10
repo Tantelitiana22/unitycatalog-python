@@ -93,7 +93,7 @@ class TablesResource(SyncAPIResource):
             body=maybe_transform(
                 {
                     "catalog_name": catalog_name,
-                    "schema": {"columns": columns},
+                    "schema": {"columns": columns },
                     "data_source_format": data_source_format,
                     "name": name,
                     "schema_name": schema_name,
